@@ -1,0 +1,401 @@
+body, input {
+
+  font-family: 'American Typewriter', Calibri, sans-serif;
+  margin: 0;
+  font-size: 14px;
+}
+
+p {
+    font-size: 1em;
+  color:#000;
+}
+
+h3 {
+
+    color: #000;
+    font-size: 2em;
+
+}
+
+a {
+
+  color: #747660;
+  text-decoration: none;
+}
+
+input[type=text] {
+    background-color: white;
+    color: #747660;
+}
+
+input[type=email] {
+    background-color: white;
+    width: 48%;
+    color: #747660;
+}
+
+input[name=name] {
+    background-color: white;
+    width: 48%;
+    color: #747660;
+}
+
+.txtbox {
+
+    height: 200px;
+    width : 100%;
+}
+
+
+
+
+a:visited {
+
+  color: #747660;
+}
+
+a:hover {
+
+  color: #c5c7b7;
+}
+
+a:active {
+
+  color: #747660;
+}
+
+#wrapper {
+
+  width: 100%;
+  margin: 0px auto;
+
+}
+
+#contentWrapper {
+
+  width: 80%;
+  margin: 0px auto;
+
+}
+
+#mainContent {
+  width: 100%;
+  text-align: left;
+  margin: 0px;
+
+}
+
+.about {
+
+  max-width: 100%;
+  padding-top: 20px;
+
+
+}
+
+.ourWork {
+  width: 100%;
+
+}
+
+.getInvolved {
+
+  width: 100%;
+
+}
+
+.contact {
+  padding-top: 20px;
+  min-width: 100%;
+
+}
+
+
+
+
+#top {
+    padding: 0px;
+    margin: 0px 0px;
+    background-image: url("images/artfortroops_01.jpg");
+    background-repeat: repeat-x;
+    height: 32px;
+}
+
+#header {
+
+height: 104px;
+padding-bottom: 40px;
+}
+
+.coffeeCup {
+
+  margin: 0px;
+} 
+
+.navlinks {
+
+   padding: 65px 20px;
+   float: right;
+   margin: 0px 0px 0px 0px;
+
+}
+
+.paintBrush {
+
+  padding-bottom: 0px;
+
+}
+
+/*----- Social -----*/
+
+.social {
+
+
+}
+
+.logo {
+  width: 160px;
+  height: 104px;
+  float: left;
+  padding: 10px;
+
+}
+
+.rotateImage {
+
+text-align: center;
+
+}
+
+
+/*----- Title -----*/
+
+#mainTitle {
+  height: auto;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.title {
+  font-size: 4.5em;
+  font-weight: bold;
+  font-style: normal;
+  color: #4e4e4e;
+}
+
+.subTitle {
+
+  font-size: 1.95em;
+  font-weight: lighter;
+  font-style: normal;
+  color: #777;
+
+}
+
+
+.leftBox {
+
+  width: 100%;
+  float:left;
+  padding: 20px 0;
+  text-align: left;
+
+}
+
+.rightBox {
+
+  width: 100%;
+  float: right;
+  text-align: right;
+
+}
+
+
+#bottom{
+  width: 100%;
+  text-align: center;
+  background-image: url("images/artfortroops_08.jpg");
+  background-repeat: repeat-x;
+  padding-top: 0px;
+  bottom: 0;
+
+}
+
+.copyright {
+  font-size: 12px;
+
+}
+
+
+
+
+/* Image Slider */
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 40s slidy infinite; 
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+/*----- Toggle Button -----*/
+.toggle-nav {
+    display:none;
+}
+
+img {
+
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+ 
+/*----- Menu -----*/
+@media screen and (min-width: 800px) {
+    .menu {
+        width: 100%;
+    }
+}
+ 
+.menu ul {
+
+}
+ 
+.menu li {
+
+    list-style:none;
+    margin: 0px 0px 0px 0px;
+}
+ 
+.menu li:last-child {
+
+}
+ 
+.menu a {
+    color:#747660;
+    transition:color linear 0.15s;
+    text-decoration: none;
+}
+ 
+.menu a:hover, .menu .current-item a {
+    text-decoration:none;
+    color:#c5c7b7;
+}
+ 
+/*----- Search -----
+.search-form {
+    float:right;
+    display:inline-block;
+    margin: 12px 150px 0px 0px;
+}
+ 
+.search-form input {
+    width:150px;
+    height:30px;
+    padding:0px 8px;
+    float:left;
+    border-radius:2px 0px 0px 2px;
+    font-size:13px;
+}
+ 
+.search-form button {
+    height:33px;
+    padding:0px 7px;
+    float:right;
+    border-radius:0px 5px 5px 0px;
+    background:#66a992;
+    font-size:13px;
+    font-weight:500;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.3);
+    color:#fff;
+}*/
+ 
+/*----- Responsive -----*/
+@media screen and (max-width: 600px) {
+    .wrap {
+        width:100%;
+    }
+    .wrap img {
+        width:100%;
+    }
+
+    .title {
+        font-size: 3.5em;
+    }
+     .subTitle {
+        font-size: 1.5em;
+    }
+
+
+
+}
+ 
+@media screen and (max-width: 360px) {
+
+    .title {
+        font-size: 2em;
+    }
+
+    
+    .menu {
+
+        display:inline-block;
+
+    }
+
+    .menu a.social {
+
+        margin: 20px 0px 0px 0px;
+    }
+ 
+    .menu ul.active {
+        display:none;
+    }
+ 
+    .menu ul {
+        width:100%;
+
+    }
+ 
+    .menu ul:after {
+
+    }
+ 
+    .menu li {
+
+
+    }
+
+ 
+    .toggle-nav {
+        padding:10px;
+        background:#fff;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:30px;
+        transition:color linear 0.15s;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#66a992;
+    }
+ 
+
+}
